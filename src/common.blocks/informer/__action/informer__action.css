@@ -1,0 +1,11 @@
+@import url(./_distribute/informer__action_distribute_between.css);
+@import url(./_distribute/informer__action_distribute_center.css);
+@import url(./_distribute/informer__action_distribute_default.css);
+@import url(./_space-a/informer__action_space-a_xl.css);
+@import url(./_space-a/informer__action_space-a_xxl.css);
+
+
+.informer__action {
+    display: flex;
+    flex-direction: column;
+}

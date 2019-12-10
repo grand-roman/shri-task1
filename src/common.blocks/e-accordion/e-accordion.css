@@ -1,0 +1,13 @@
+.e-accordion {}
+
+.e-accordion__short:hover {
+    cursor: pointer;
+}
+
+.e-accordion__more {
+    display: none;
+}
+
+.e-accordion__more_view_default {
+    display: block;
+}

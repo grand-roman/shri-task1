@@ -1,0 +1,18 @@
+/* @import url(../../common.blocks/theme/theme.css);
+@import url(../../common.blocks/card/card.css);
+@import url(../../common.blocks/text/text.css);
+@import url(../../common.blocks/image/image.css); */
+
+
+.product {
+    min-height: 300px;
+    border-width: 3px;
+}
+
+.product__title {
+    margin-bottom: var(--space-xxxl);
+}
+
+.product__image {
+    height: 160px;
+}

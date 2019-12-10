@@ -1,0 +1,23 @@
+/* @import url(../../content.blocks/onoffswitch/onoffswitch.css);
+@import url(../../common.blocks/theme/theme.css); */
+
+.header {
+    padding-top: var(--space-xxxl);
+    padding-bottom: var(--space-xxxl);
+    padding-left: var(--gap);
+    padding-right: var(--gap);
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    width: 179px;
+    height: 34px;
+    background-color: var(--theme-primary-color);
+}

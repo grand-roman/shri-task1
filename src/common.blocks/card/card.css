@@ -1,0 +1,9 @@
+@import url(./_border/card_border_all.css);
+@import url(./_view/card_view_default.css);
+@import url(./__content/card__content.css);
+@import url(./__footer/card__footer.css);
+
+
+.card {
+    position: relative;
+}

@@ -1,0 +1,19 @@
+.text_size_s {
+    --word-indent: calc((var(--line-hieght-s) - var(--font-size-s))/2);
+}
+
+.text_size_m {
+    --word-indent: calc((var(--line-hieght-m) - var(--font-size-m))/2);
+}
+
+.text_size_l {
+    --word-indent: calc((var(--line-hieght-l) - var(--font-size-l))/2);
+}
+
+.text_size_xl {
+    --word-indent: calc((var(--line-hieght-xl) - var(--font-size-xl))/2);
+}
+
+.text_size_xxl {
+    --word-indent: calc((var(--line-hieght-xxl) - var(--font-size-xxl))/2);
+}

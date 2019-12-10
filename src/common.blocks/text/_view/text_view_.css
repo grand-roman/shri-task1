@@ -1,0 +1,15 @@
+.text_view_primary .text__word {
+    background-color: var(--theme-primary-color);
+}
+
+.text_view_secondary .text__word {
+    background-color: var(--theme-secondary-color);
+}
+
+.text_view_ghost .text__word {
+    background-color: var(--theme-additional-color);
+}
+
+.text_view_link .text__word {
+    background-color: var(--theme-link-color);
+}

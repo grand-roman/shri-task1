@@ -1,0 +1,4 @@
+.form__item.form__item_distribute_between {
+    flex-direction: row;
+    justify-content: space-between;
+}

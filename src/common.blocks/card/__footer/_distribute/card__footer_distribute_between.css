@@ -1,0 +1,4 @@
+.card__footer_distribute_between {
+    flex-direction: row;
+    justify-content: space-between;
+}

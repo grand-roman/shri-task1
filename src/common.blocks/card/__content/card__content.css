@@ -1,0 +1,14 @@
+@import url(./_distribute/card__content_distribute_center.css);
+@import url(./_vertical-align/card__content_vertical-align_center.css);
+@import url(./_space-a/card__content_space-a_m.css);
+@import url(./_space-a/card__content_space-a_l.css);
+@import url(./_space-a/card__content_space-a_xl.css);
+@import url(./_space-a/card__content_space-a_xxl.css);
+@import url(./_space-a/card__content_space-a_xxxl.css);
+
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}

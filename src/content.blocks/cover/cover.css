@@ -1,0 +1,15 @@
+/* @import url(../../common.blocks/card/card.css);
+@import url(../../common.blocks/text/text.css);
+@import url(../../common.blocks/image/image.css);
+@import url(../../common.blocks/button/button.css);
+@import url(../../common.blocks/theme/theme.css); */
+
+
+.cover {
+    min-height: 472px;
+}
+
+.cover__preview {
+    height: 180px;
+    margin-bottom: var(--space-l);
+}

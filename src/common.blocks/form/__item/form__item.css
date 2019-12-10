@@ -1,0 +1,17 @@
+@import url(./_border/form__item_border_bottom.css);
+@import url(./_distribute/form__item_distribute_between.css);
+@import url(./_indent-b/form__item_indent-b_.css);
+@import url(./_space-h/form__item_space-h_.css);
+@import url(./_space-v/form__item_space-v_.css);
+@import url(./_vertical-align/form__item_vertical-align_center.css);
+
+
+.form__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.form .form__item:last-of-type.form__item_border_bottom {
+    border-bottom: unset;
+    margin-bottom: 0;
+}
