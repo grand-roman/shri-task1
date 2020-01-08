@@ -1,5 +1,0 @@
-.form__item_border_bottom {
-    border-bottom-width: inherit;
-    border-bottom-style: solid;
-    border-bottom-color:  var(--theme-border-color);
-}

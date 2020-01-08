@@ -1,38 +1,40 @@
 {
-  "name": "shri-2020-task1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/grand-roman/shri-task1.git"
-  },
-  "author": "Felix.Khodakovsky",
-  "license": "ISC",
-  "homepage": "https://github.com/grand-roman/shri-task1#readme",
-  "dependencies": {},
+  "name": "shri-20",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Task 1 Design System",
   "devDependencies": {
-    "css-loader": "3.1.0",
-    "mini-css-extract-plugin": "^0.7.0",
-    "webpack": "^4.35.3",
-    "webpack-cli": "^3.3.6",
-    "webpack-dev-server": "^3.7.2",
-    "webpack-merge": "^4.2.1",
-    "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
-    "@babel/polyfill": "7.4.4",
-    "babel-loader": "^8.0.6",
-    "image-webpack-loader": "5.0.0",
-    "style-loader": "0.23.1",
-    "html-webpack-plugin": "3.2.0",
-    "file-loader": "4.1.0",
-    "copy-webpack-plugin": "5.0.3",
-    "optimize-css-assets-webpack-plugin": "5.0.3",
-    "cssnano": "4.1.10",
-    "clean-webpack-plugin": "3.0.0"
+    "autoprefixer": "7.2.x",
+    "browser-sync": "^2.26.7",
+    "del": "^3.0.0",
+    "gulp": "3.9.x",
+    "gulp-csso": "^3.0.1",
+    "gulp-plumber": "1.2.x",
+    "gulp-postcss": "7.0.x",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "3.1.x",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^3.0.0",
+    "run-sequence": "^2.2.1"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "start": "npm run build && gulp serve"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "IE 11",
+    "Firefox ESR"
+  ],
+  "editorconfig-cli": [
+    "*.json",
+    "*.js",
+    "source/*.html",
+    "source/js/**/*.js",
+    "source/img/**/*.svg",
+    "source/sass/**/*.{sass,scss}"
+  ],
+  "engines": {
+    "node": "8.9"
   }
 }

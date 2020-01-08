@@ -1,9 +1,0 @@
-.theme_gap_small {
-    --gap: var(--space-xl);
-}
-
-@media screen and (max-width: 1024px) {
-    .theme_gap_small {
-        --gap: var(--space-s);
-    }
-}

@@ -1,8 +1,0 @@
-@import url(./__block/icon-plus__block.css);
-@import url(./__icon/icon-plus__icon.css);
-@import url(./_vertical-align/icon-plus_vertical-align_center.css);
-
-
-.icon-plus {
-    display: flex;
-}

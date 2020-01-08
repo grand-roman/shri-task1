@@ -1,5 +1,0 @@
-.list__item_border_bottom {
-    border-bottom-style: solid;
-    border-bottom-color: var(--theme-border-color);
-    border-bottom-width: inherit;
-}

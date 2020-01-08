@@ -1,8 +1,0 @@
-@import url(./_size/button_size_.css);
-@import url(./_width/button_width_full.css);
-
-
-.button {
-    background-color: var(--theme-accent-bg-color);
-    width: 200px;
-}
